@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'danger twice debate finger card sun key genre embody erase stamp payment',
-    'https://rinkeby.infura.io/v3/d734110aaa8e479280a08f85b8485b3d'
+    '',
+    ''
 );
 
 const web3 = new Web3(provider);
